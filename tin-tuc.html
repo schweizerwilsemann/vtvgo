@@ -1,0 +1,893 @@
+
+
+
+<!DOCTYPE html>
+<html lang="vi">
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="fb:pages" content="145718279131591" />
+        <title></title>
+        <meta name=description content="">
+        <meta property=og:title content="">
+        <meta property=og:type content="website">
+        <meta property="fb:app_id" content="1532733803716698" />
+        <meta property=og:description content="">
+        <meta property=og:url content="https://vtvgo.vn/tin-tuc?time=1699605401">
+        <meta property=og:image content="">
+        <link rel=image_src href="">
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="315" />
+        <meta property=og:site_name content="https://vtvgo.vn/">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href="https://public-web.vtvdigital.vn/public/css/style.css" media="all" rel="stylesheet" type="text/css" />
+        <link href="https://public-web.vtvdigital.vn/public/css/responsive.min.css" media="all" rel="stylesheet" type="text/css" />
+        <link href="https://public-web.vtvdigital.vn/public/glDatePicker/styles/glDatePicker.default.css" rel="stylesheet" type="text/css">
+        <link href="https://public-web.vtvdigital.vn/public/glDatePicker/styles/glDatePicker.darkneon.css" rel="stylesheet" type="text/css">
+
+
+        <link href="https://public-web.vtvdigital.vn/public/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" />
+        <link href="https://public-web.vtvdigital.vn/public/css/swiper.min.css" media="all" rel="stylesheet" type="text/css" />
+        <link href="https://public-web.vtvdigital.vn/public/css/slick.min.css" media="all" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="https://public-web.vtvdigital.vn/public/images/favicon.ico" type="image/x-icon">
+
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="https://public-web.vtvdigital.vn/public/js/swiper.min.js"></script>
+        <script type="text/javascript" src="https://public-web.vtvdigital.vn/public/js/slick.min.js"></script>
+
+        <script type="text/javascript" src="https://public-web.vtvdigital.vn/public/glDatePicker/glDatePicker.min.js"></script>
+
+
+        <!-- Hls dependency -->
+        <script src="//cdn.jsdelivr.net/npm/hls.js@0.8.9" type="application/javascript"></script> 
+
+  
+    
+        
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        </script>
+
+        <script type="text/javascript" src="https://public-web.vtvdigital.vn/public/js/date.js"></script>	
+			
+			
+			
+			<script type="text/javascript" >
+                var start_count_time = new Date();
+            </script>    
+
+    </head>
+<body>
+
+
+
+
+<div class="wrapper" id="homepage">
+
+            <header class="fixmenu">
+    <div class="bgtop10">&nbsp;</div>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid no-padding">
+                <!-- Brand and toggle get grouped for better mobile display -->
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="https://vtvgo.vn/">
+                        <img src="https://public-web.vtvdigital.vn/public/images/logo.png" alt="VTVGo" style="margin-top: -6px;" />
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav menu-pc">
+                        <li>
+                            <a href="https://vtvgo.vn/" class=" ">Trang chủ</a>
+                        </li>
+                        <li>
+                                                        <a href="https://vtvgo.vn/trang-chu.html" class=" ">Xem trực tuyến</a>
+                                                    </li>
+                        <li>
+                            <a href="https://vtvgo.vn/digital" class=" " >Kênh Số VTV</a>
+                        </li>
+                        <li>
+                            <a href="https://vtvgo.vn/tin-tuc.html" class="active " >Tin tức</a>
+                        </li>
+          
+                        <li>
+                            <a href="https://vtvgo.vn/digital/?digital_id=163" class=" " >VTV Giải Trí</a>
+                        </li>
+         
+
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <form class="navbar-form form-search" style="padding-right: 0px !important;" action="https://vtvgo.vn/search.html">
+                                <div class="form-group input-box-search">
+                                    <input name="search-keyword" value="" type="text" class="form-control txt-search-header" placeholder="Tìm kiếm chương trình, lịch phát sóng, video, phim ... ">
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+</header>
+    
+<!-- Main content -->
+<div class="col-md-12 no-padding line-top-news mgt65">
+    <div class="slide-post-news slide-top-news slide-news">
+        <div class="swiper-container">
+
+                        <div class="swiper-wrapper slide-vtv-next-multi">
+
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/thoi-su-12h-10112023-hang-nghin-nan-nhan-bi-lua-tai-tap-doan-sam-ngoc-linh-911846.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/1011_TS12h_638352209971349415.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/thoi-su-12h-10112023-hang-nghin-nan-nhan-bi-lua-tai-tap-doan-sam-ngoc-linh-911846.html" title="Thời sự 12h | 10/11/2023 | Hàng nghìn nạn nhân bị lừa tại Tập đoàn Sâm Ngọc Linh">Thời sự 12h | 10/11/2023 | Hàng nghìn nạn nhân bị lừa tại Tập đoàn Sâm Ngọc Linh</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/tai-chinh-kinh-doanh-10112023-cac-ngan-hang-tiep-tuc-giam-mat-bang-lai-suat-911845.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/0c968d8c-74a4-4953-90a1-c39d5e3a3a18.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/tai-chinh-kinh-doanh-10112023-cac-ngan-hang-tiep-tuc-giam-mat-bang-lai-suat-911845.html" title="Tài chính kinh doanh | 10/11/2023 | Các ngân hàng tiếp tục giảm mặt bằng lãi suất ">Tài chính kinh doanh | 10/11/2023 | Các ngân hàng tiếp tục giảm mặt bằng lãi suất </a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/bi-mat-dong-tien-mua-2-35-moneytalk-dat-dai-never-sai-911844.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/BMDT_638352204503825432.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/bi-mat-dong-tien-mua-2-35-moneytalk-dat-dai-never-sai-911844.html" title="Bí mật đồng tiền mùa 2 #35 | Moneytalk | Đất đai never sai?">Bí mật đồng tiền mùa 2 #35 | Moneytalk | Đất đai never sai?</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/chuyen-dong-24h-10112023-no-ro-cac-chuong-trinh-khuyen-mai-danh-cho-hoi-doc-than-911842.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/5a3f4fa1-edb4-4d9f-a2ba-551fbf6825e0.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/chuyen-dong-24h-10112023-no-ro-cac-chuong-trinh-khuyen-mai-danh-cho-hoi-doc-than-911842.html" title="Chuyển động 24h | 10/11/2023 | Nở rộ các chương trình khuyến mại dành cho "hội độc thân"">Chuyển động 24h | 10/11/2023 | Nở rộ các chương trình khuyến mại dành cho "hội độc thân"</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/khanh-thanh-nha-may-dien-mat-troi-noi-lon-thu-3-the-gioi-tai-chinh-kinh-doanh-911841.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/0601ca61-54f8-45b4-a494-4e741c7e0de9.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/khanh-thanh-nha-may-dien-mat-troi-noi-lon-thu-3-the-gioi-tai-chinh-kinh-doanh-911841.html" title="Khánh thành nhà máy điện mặt trời nổi lớn thứ 3 thế giới | Tài chính kinh doanh">Khánh thành nhà máy điện mặt trời nổi lớn thứ 3 thế giới | Tài chính kinh doanh</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/vuot-qua-tro-luc-viet-nam-se-tang-toc-chuyen-doi-so-tai-chinh-kinh-doanh-911840.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/340ecab1-6794-4a97-8c90-88c023fde1f0.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/vuot-qua-tro-luc-viet-nam-se-tang-toc-chuyen-doi-so-tai-chinh-kinh-doanh-911840.html" title="Vượt qua trở lực, Việt Nam sẽ tăng tốc chuyển đổi số | Tài chính kinh doanh">Vượt qua trở lực, Việt Nam sẽ tăng tốc chuyển đổi số | Tài chính kinh doanh</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/cac-ngan-hang-tiep-tuc-giam-mat-bang-lai-suat-tai-chinh-kinh-doanh-911839.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/2d40c27f-7d60-49f2-9edf-68156b431295.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/cac-ngan-hang-tiep-tuc-giam-mat-bang-lai-suat-tai-chinh-kinh-doanh-911839.html" title="Các ngân hàng tiếp tục giảm mặt bằng lãi suất | Tài chính kinh doanh">Các ngân hàng tiếp tục giảm mặt bằng lãi suất | Tài chính kinh doanh</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/no-ro-cac-chuong-trinh-khuyen-mai-danh-rieng-cho-hoi-doc-than-chuyen-dong-24h-911833.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/6403fb01-fb30-49f6-b720-38c6799ed1a4.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/no-ro-cac-chuong-trinh-khuyen-mai-danh-rieng-cho-hoi-doc-than-chuyen-dong-24h-911833.html" title="Nở rộ các chương trình khuyến mại dành riêng cho "hội độc thân" | Chuyển động 24h">Nở rộ các chương trình khuyến mại dành riêng cho "hội độc thân" | Chuyển động 24h</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/nhac-si-do-bao-chia-se-ve-concert-mot-minh-bao-la-chuyen-dong-24h-911829.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/1d984a41-990a-43ed-8616-4c94e8149c35.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/nhac-si-do-bao-chia-se-ve-concert-mot-minh-bao-la-chuyen-dong-24h-911829.html" title="Nhạc sĩ Đỗ Bảo chia sẻ về concert "Một mình bao la" | Chuyển động 24h">Nhạc sĩ Đỗ Bảo chia sẻ về concert "Một mình bao la" | Chuyển động 24h</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/israel-se-ngung-ban-4-tiengngay-o-dai-gaza-chuyen-dong-24h-911828.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/09b8f0d1-2c2b-476a-8378-59eeb926d858.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/israel-se-ngung-ban-4-tiengngay-o-dai-gaza-chuyen-dong-24h-911828.html" title="Israel sẽ ngừng bắn 4 tiếng/ngày ở dải Gaza | Chuyển động 24h">Israel sẽ ngừng bắn 4 tiếng/ngày ở dải Gaza | Chuyển động 24h</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/lang-son-xu-ly-nhieu-nhom-hoc-sinh-dua-xe-trai-phep-chuyen-dong-24h-911825.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/a26c4db5-72ca-44f6-89fc-2e4dcd791ea3.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/lang-son-xu-ly-nhieu-nhom-hoc-sinh-dua-xe-trai-phep-chuyen-dong-24h-911825.html" title="Lạng Sơn: Xử lý nhiều nhóm học sinh đua xe trái phép | Chuyển động 24h">Lạng Sơn: Xử lý nhiều nhóm học sinh đua xe trái phép | Chuyển động 24h</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/can-co-phuong-phap-tinh-dung-du-ve-luong-nguoi-xem-truyen-hinh-thoi-su-19h-911799.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/rating_638352093714534828.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/can-co-phuong-phap-tinh-dung-du-ve-luong-nguoi-xem-truyen-hinh-thoi-su-19h-911799.html" title="Cần có phương pháp tính đúng, đủ về lượng người xem truyền hình | Thời sự 19h">Cần có phương pháp tính đúng, đủ về lượng người xem truyền hình | Thời sự 19h</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/viet-nam-thuc-giac-nhung-buc-tranh-tu-lang-nghe-theu-tay-thuong-tin-911791.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/1011_Vn_thuc_giac_638352035738415739.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/viet-nam-thuc-giac-nhung-buc-tranh-tu-lang-nghe-theu-tay-thuong-tin-911791.html" title="Việt Nam thức giấc | Những bức tranh từ làng nghề thêu tay Thường Tín">Việt Nam thức giấc | Những bức tranh từ làng nghề thêu tay Thường Tín</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/cafe-sang-10112023-ha-noi-trien-khai-ve-xe-buyt-dien-tu-lien-thong-tu-ngay-1511-911790.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/1011_ca_phe_sang_638352033901581116.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/cafe-sang-10112023-ha-noi-trien-khai-ve-xe-buyt-dien-tu-lien-thong-tu-ngay-1511-911790.html" title="Cafe sáng | 10/11/2023 | Hà Nội triển khai vé xe buýt điện tử liên thông từ ngày 15/11">Cafe sáng | 10/11/2023 | Hà Nội triển khai vé xe buýt điện tử liên thông từ ngày 15/11</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/chao-buoi-sang-10112023-bo-y-te-canh-bao-mam-benh-dau-mua-khi-trong-cong-dong-911789.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/1011_chao_sang_638352031683989313.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/chao-buoi-sang-10112023-bo-y-te-canh-bao-mam-benh-dau-mua-khi-trong-cong-dong-911789.html" title="Chào buổi sáng | 10/11/2023 | Bộ Y tế cảnh báo mầm bệnh đậu mùa khỉ trong cộng đồng">Chào buổi sáng | 10/11/2023 | Bộ Y tế cảnh báo mầm bệnh đậu mùa khỉ trong cộng đồng</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/tai-chinh-kinh-doanh-10112023-san-xuat-cong-nghiep-phuc-hoi-o-cac-thang-cuoi-nam-911788.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/0eb503bf-abea-4d36-b560-7d655bd06a24.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/tai-chinh-kinh-doanh-10112023-san-xuat-cong-nghiep-phuc-hoi-o-cac-thang-cuoi-nam-911788.html" title="Tài chính kinh doanh | 10/11/2023 | Sản xuất công nghiệp phục hồi ở các tháng cuối năm">Tài chính kinh doanh | 10/11/2023 | Sản xuất công nghiệp phục hồi ở các tháng cuối năm</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/dong-luc-tang-truong-cho-bat-dong-san-phia-dong-ha-noi-tai-chinh-kinh-doanh-911787.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/cc52f00e-8d0d-4cfa-bd76-981c90d427b4.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/dong-luc-tang-truong-cho-bat-dong-san-phia-dong-ha-noi-tai-chinh-kinh-doanh-911787.html" title="Động lực tăng trưởng cho bất động sản phía Đông Hà Nội | Tài chính kinh doanh">Động lực tăng trưởng cho bất động sản phía Đông Hà Nội | Tài chính kinh doanh</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/san-xuat-cong-nghiep-phuc-hoi-o-cac-thang-cuoi-nam-tai-chinh-kinh-doanh-911786.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/419a8265-7d66-4a06-98ba-13bcbf3ce743.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/san-xuat-cong-nghiep-phuc-hoi-o-cac-thang-cuoi-nam-tai-chinh-kinh-doanh-911786.html" title="Sản xuất công nghiệp phục hồi ở các tháng cuối năm | Tài chính kinh doanh">Sản xuất công nghiệp phục hồi ở các tháng cuối năm | Tài chính kinh doanh</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/esg-van-quan-trong-voi-doanh-nghiep-tai-chinh-kinh-doanh-911785.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/76effdc4-ef43-41d9-91fa-9abeb636dced.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/esg-van-quan-trong-voi-doanh-nghiep-tai-chinh-kinh-doanh-911785.html" title="ESG vẫn quan trọng với doanh nghiệp | Tài chính kinh doanh">ESG vẫn quan trọng với doanh nghiệp | Tài chính kinh doanh</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/tai-chinh-kinh-doanh-09112023-quyet-liet-giai-ngan-von-dau-tu-cong-cac-du-an-giao-thong-911784.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/22f80acd-5099-43c8-9b94-aa960e526669.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/tai-chinh-kinh-doanh-09112023-quyet-liet-giai-ngan-von-dau-tu-cong-cac-du-an-giao-thong-911784.html" title="Tài chính kinh doanh | 09/11/2023 | Quyết liệt giải ngân vốn đầu tư công các dự án giao thông">Tài chính kinh doanh | 09/11/2023 | Quyết liệt giải ngân vốn đầu tư công các dự án giao thông</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/quyet-liet-giai-ngan-von-dau-tu-cong-cac-du-an-giao-thong-tai-chinh-kinh-doanh-911783.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231110/b16cab6c-af25-407d-b53c-53d3964b10cb.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/quyet-liet-giai-ngan-von-dau-tu-cong-cac-du-an-giao-thong-tai-chinh-kinh-doanh-911783.html" title="Quyết liệt giải ngân vốn đầu tư công các dự án giao thông | Tài chính kinh doanh">Quyết liệt giải ngân vốn đầu tư công các dự án giao thông | Tài chính kinh doanh</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/nhieu-tin-hieu-sang-truoc-them-cuoc-gap-thuong-dinh-my-trung-thoi-su-19h-911766.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231109/01_ts_tq_638351605518363353.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/nhieu-tin-hieu-sang-truoc-them-cuoc-gap-thuong-dinh-my-trung-thoi-su-19h-911766.html" title="Nhiều tín hiệu sáng trước thềm cuộc gặp thượng đỉnh Mỹ - Trung | Thời sự 19h">Nhiều tín hiệu sáng trước thềm cuộc gặp thượng đỉnh Mỹ - Trung | Thời sự 19h</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/bo-tai-nguyen-va-moi-truong-huong-dan-phan-loai-rac-thoi-su-19h-911765.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231109/01_ts_rac_638351604130868250.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/bo-tai-nguyen-va-moi-truong-huong-dan-phan-loai-rac-thoi-su-19h-911765.html" title="Bộ Tài nguyên và Môi trường hướng dẫn phân loại rác | Thời sự 19h ">Bộ Tài nguyên và Môi trường hướng dẫn phân loại rác | Thời sự 19h </a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/ngan-truc-loi-tu-mo-vat-lieu-cao-toc-bac-nam-thoi-su-19h-911764.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231109/01_ts_cao_toc_638351602405924734.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/ngan-truc-loi-tu-mo-vat-lieu-cao-toc-bac-nam-thoi-su-19h-911764.html" title="Ngăn trục lợi từ mỏ vật liệu cao tốc Bắc - Nam | Thời sự 19h ">Ngăn trục lợi từ mỏ vật liệu cao tốc Bắc - Nam | Thời sự 19h </a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/thoi-su-19h-09112023-quoc-hoi-dat-muc-tieu-gdp-nam-2023-tang-6-65-911761.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231109/0911_Thoi_su_19h_638351596264330391.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/thoi-su-19h-09112023-quoc-hoi-dat-muc-tieu-gdp-nam-2023-tang-6-65-911761.html" title="Thời sự 19h | 09/11/2023 | Quốc hội đặt mục tiêu GDP năm 2023 tăng 6 - 6,5%">Thời sự 19h | 09/11/2023 | Quốc hội đặt mục tiêu GDP năm 2023 tăng 6 - 6,5%</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/nhieu-nguoi-bi-xu-phat-khi-di-bo-sang-duong-tuy-tien-chuyen-dong-24h-911759.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231109/01_cd2_di_bo_638351592790276120.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/nhieu-nguoi-bi-xu-phat-khi-di-bo-sang-duong-tuy-tien-chuyen-dong-24h-911759.html" title="Nhiều người bị xử phạt khi đi bộ sang đường tùy tiện | Chuyển động 24h">Nhiều người bị xử phạt khi đi bộ sang đường tùy tiện | Chuyển động 24h</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/vi-con-chuyen-dong-24h-911753.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231109/CD2_cap_la_638351579313218119.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/vi-con-chuyen-dong-24h-911753.html" title="Vì con | Chuyển động 24h">Vì con | Chuyển động 24h</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/tranh-cai-ve-de-xuat-lam-70-tieng-mot-tuan-tai-an-do-chuyen-dong-24h-911752.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231109/CD2_an_do_638351573214947363.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/tranh-cai-ve-de-xuat-lam-70-tieng-mot-tuan-tai-an-do-chuyen-dong-24h-911752.html" title="Tranh cãi về đề xuất làm 70 tiếng một tuần tại Ấn Độ | Chuyển động 24h">Tranh cãi về đề xuất làm 70 tiếng một tuần tại Ấn Độ | Chuyển động 24h</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/tran-lan-dich-vu-karaoke-nup-bong-chuyen-dong-24h-911751.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231109/CD2_hat_638351569577422446.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/tran-lan-dich-vu-karaoke-nup-bong-chuyen-dong-24h-911751.html" title="Tràn lan dịch vụ karaoke "núp bóng" | Chuyển động 24h">Tràn lan dịch vụ karaoke "núp bóng" | Chuyển động 24h</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                <div class="swiper-slide news-slide-content-item">
+                    <a href="https://vtvgo.vn/tin-tuc/viet-nam-hom-nay-09112023-gia-ban-le-dien-binh-quan-tang-45-911747.html ">
+                        <img class="img-slider-top-news" src="https://vtvgo-images.vtvdigital.vn/images/20231109/0911_vn_hom_nay_638351576095681841.jpg" />
+                    </a>
+                    <span class="col-md-12 height-info-slide-top-news">
+                        <label>
+                            <h2 class="label-store-news label-store-news-small">
+                                <a class="font-bold" href="https://vtvgo.vn/tin-tuc/viet-nam-hom-nay-09112023-gia-ban-le-dien-binh-quan-tang-45-911747.html" title="Việt Nam hôm nay | 09/11/2023 |  Giá bán lẻ điện bình quân tăng 4,5%">Việt Nam hôm nay | 09/11/2023 |  Giá bán lẻ điện bình quân tăng 4,5%</a>
+                            </h2>
+                        </label>
+                    </span>
+                </div>
+                                                                                                                
+            </div>
+                    </div>
+    </div>
+</div>
+
+<div class="col-md-12 no-padding box-white content-3-rows-news">
+    <div class="container content-news-white">
+        <div class="col-md-3 menu-news-sidebar">
+            <ul>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=-1.html" class="active "> Mới Nhất</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=763.html" class=" "> TRONG NƯỚC</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=771.html" class=" "> THẾ GIỚI</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=752.html" class=" "> KINH TẾ</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=776.html" class=" "> BẢN TIN VTV</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=1073.html" class=" "> ĐIỂM TỰA TÀI CHÍNH</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=1022.html" class=" "> MONEY TALK</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=1012.html" class=" "> LANDSHOW</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=1006.html" class=" "> Bảo vệ nền tảng tư tưởng của Đảng</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=1023.html" class=" "> DÒNG CHẢY TÀI CHÍNH</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=1011.html" class=" "> BẢN TIN ZLIFE</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=781.html" class=" "> MONEY WEEKLY</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=777.html" class=" "> Y TẾ</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=774.html" class=" "> GÓC VTV</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=966.html" class=" "> COVID- 19 phòng và chống</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=1013.html" class=" "> KHỚP LỆNH</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=762.html" class=" "> COVID-19</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=729.html" class=" "> ĐỐI DIỆN</a>
+                </li>
+                                <li>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=968.html" class=" "> Ơi, nghe nè</a>
+                </li>
+                            </ul>
+        </div>
+        <div class="col-md-9 no-padding content-news-main">
+            <div class="col-md-12 no-padding slide-white">
+                <div class="slide-post-news slide-multi-row slide-news slide-news-loading">
+
+                                        <div class="swiper-container slide-next-multi-row-cell-container">
+                        <div class="swiper-wrapper slide-next-multi-row-cell">
+
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/thoi-su-12h-10112023-hang-nghin-nan-nhan-bi-lua-tai-tap-doan-sam-ngoc-linh-911846.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/1011_TS12h_638352209971349415.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/thoi-su-12h-10112023-hang-nghin-nan-nhan-bi-lua-tai-tap-doan-sam-ngoc-linh-911846.html" title="Thời sự 12h | 10/11/2023 | Hàng nghìn nạn nhân bị lừa tại Tập đoàn Sâm Ngọc Linh">Thời sự 12h | 10/11/2023 | Hàng nghìn nạn nhân bị lừa tại Tập đoàn Sâm Ngọc Linh</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">157 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/tai-chinh-kinh-doanh-10112023-cac-ngan-hang-tiep-tuc-giam-mat-bang-lai-suat-911845.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/0c968d8c-74a4-4953-90a1-c39d5e3a3a18.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/tai-chinh-kinh-doanh-10112023-cac-ngan-hang-tiep-tuc-giam-mat-bang-lai-suat-911845.html" title="Tài chính kinh doanh | 10/11/2023 | Các ngân hàng tiếp tục giảm mặt bằng lãi suất ">Tài chính kinh doanh | 10/11/2023 | Các ngân hàng tiếp tục giảm mặt bằng lãi suất </a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">116 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/bi-mat-dong-tien-mua-2-35-moneytalk-dat-dai-never-sai-911844.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/BMDT_638352204503825432.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/bi-mat-dong-tien-mua-2-35-moneytalk-dat-dai-never-sai-911844.html" title="Bí mật đồng tiền mùa 2 #35 | Moneytalk | Đất đai never sai?">Bí mật đồng tiền mùa 2 #35 | Moneytalk | Đất đai never sai?</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">36 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/chuyen-dong-24h-10112023-no-ro-cac-chuong-trinh-khuyen-mai-danh-cho-hoi-doc-than-911842.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/5a3f4fa1-edb4-4d9f-a2ba-551fbf6825e0.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/chuyen-dong-24h-10112023-no-ro-cac-chuong-trinh-khuyen-mai-danh-cho-hoi-doc-than-911842.html" title="Chuyển động 24h | 10/11/2023 | Nở rộ các chương trình khuyến mại dành cho "hội độc thân"">Chuyển động 24h | 10/11/2023 | Nở rộ các chương trình khuyến mại dành cho "hội độc thân"</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">54 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/khanh-thanh-nha-may-dien-mat-troi-noi-lon-thu-3-the-gioi-tai-chinh-kinh-doanh-911841.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/0601ca61-54f8-45b4-a494-4e741c7e0de9.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/khanh-thanh-nha-may-dien-mat-troi-noi-lon-thu-3-the-gioi-tai-chinh-kinh-doanh-911841.html" title="Khánh thành nhà máy điện mặt trời nổi lớn thứ 3 thế giới | Tài chính kinh doanh">Khánh thành nhà máy điện mặt trời nổi lớn thứ 3 thế giới | Tài chính kinh doanh</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">14 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/vuot-qua-tro-luc-viet-nam-se-tang-toc-chuyen-doi-so-tai-chinh-kinh-doanh-911840.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/340ecab1-6794-4a97-8c90-88c023fde1f0.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/vuot-qua-tro-luc-viet-nam-se-tang-toc-chuyen-doi-so-tai-chinh-kinh-doanh-911840.html" title="Vượt qua trở lực, Việt Nam sẽ tăng tốc chuyển đổi số | Tài chính kinh doanh">Vượt qua trở lực, Việt Nam sẽ tăng tốc chuyển đổi số | Tài chính kinh doanh</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">15 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/cac-ngan-hang-tiep-tuc-giam-mat-bang-lai-suat-tai-chinh-kinh-doanh-911839.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/2d40c27f-7d60-49f2-9edf-68156b431295.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/cac-ngan-hang-tiep-tuc-giam-mat-bang-lai-suat-tai-chinh-kinh-doanh-911839.html" title="Các ngân hàng tiếp tục giảm mặt bằng lãi suất | Tài chính kinh doanh">Các ngân hàng tiếp tục giảm mặt bằng lãi suất | Tài chính kinh doanh</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">15 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/no-ro-cac-chuong-trinh-khuyen-mai-danh-rieng-cho-hoi-doc-than-chuyen-dong-24h-911833.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/6403fb01-fb30-49f6-b720-38c6799ed1a4.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/no-ro-cac-chuong-trinh-khuyen-mai-danh-rieng-cho-hoi-doc-than-chuyen-dong-24h-911833.html" title="Nở rộ các chương trình khuyến mại dành riêng cho "hội độc thân" | Chuyển động 24h">Nở rộ các chương trình khuyến mại dành riêng cho "hội độc thân" | Chuyển động 24h</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">35 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/nhac-si-do-bao-chia-se-ve-concert-mot-minh-bao-la-chuyen-dong-24h-911829.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/1d984a41-990a-43ed-8616-4c94e8149c35.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/nhac-si-do-bao-chia-se-ve-concert-mot-minh-bao-la-chuyen-dong-24h-911829.html" title="Nhạc sĩ Đỗ Bảo chia sẻ về concert "Một mình bao la" | Chuyển động 24h">Nhạc sĩ Đỗ Bảo chia sẻ về concert "Một mình bao la" | Chuyển động 24h</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">27 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/israel-se-ngung-ban-4-tiengngay-o-dai-gaza-chuyen-dong-24h-911828.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/09b8f0d1-2c2b-476a-8378-59eeb926d858.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/israel-se-ngung-ban-4-tiengngay-o-dai-gaza-chuyen-dong-24h-911828.html" title="Israel sẽ ngừng bắn 4 tiếng/ngày ở dải Gaza | Chuyển động 24h">Israel sẽ ngừng bắn 4 tiếng/ngày ở dải Gaza | Chuyển động 24h</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">65 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/lang-son-xu-ly-nhieu-nhom-hoc-sinh-dua-xe-trai-phep-chuyen-dong-24h-911825.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/a26c4db5-72ca-44f6-89fc-2e4dcd791ea3.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/lang-son-xu-ly-nhieu-nhom-hoc-sinh-dua-xe-trai-phep-chuyen-dong-24h-911825.html" title="Lạng Sơn: Xử lý nhiều nhóm học sinh đua xe trái phép | Chuyển động 24h">Lạng Sơn: Xử lý nhiều nhóm học sinh đua xe trái phép | Chuyển động 24h</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">34 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/can-co-phuong-phap-tinh-dung-du-ve-luong-nguoi-xem-truyen-hinh-thoi-su-19h-911799.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/rating_638352093714534828.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/can-co-phuong-phap-tinh-dung-du-ve-luong-nguoi-xem-truyen-hinh-thoi-su-19h-911799.html" title="Cần có phương pháp tính đúng, đủ về lượng người xem truyền hình | Thời sự 19h">Cần có phương pháp tính đúng, đủ về lượng người xem truyền hình | Thời sự 19h</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">258 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/viet-nam-thuc-giac-nhung-buc-tranh-tu-lang-nghe-theu-tay-thuong-tin-911791.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/1011_Vn_thuc_giac_638352035738415739.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/viet-nam-thuc-giac-nhung-buc-tranh-tu-lang-nghe-theu-tay-thuong-tin-911791.html" title="Việt Nam thức giấc | Những bức tranh từ làng nghề thêu tay Thường Tín">Việt Nam thức giấc | Những bức tranh từ làng nghề thêu tay Thường Tín</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">104 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/cafe-sang-10112023-ha-noi-trien-khai-ve-xe-buyt-dien-tu-lien-thong-tu-ngay-1511-911790.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/1011_ca_phe_sang_638352033901581116.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/cafe-sang-10112023-ha-noi-trien-khai-ve-xe-buyt-dien-tu-lien-thong-tu-ngay-1511-911790.html" title="Cafe sáng | 10/11/2023 | Hà Nội triển khai vé xe buýt điện tử liên thông từ ngày 15/11">Cafe sáng | 10/11/2023 | Hà Nội triển khai vé xe buýt điện tử liên thông từ ngày 15/11</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">855 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/chao-buoi-sang-10112023-bo-y-te-canh-bao-mam-benh-dau-mua-khi-trong-cong-dong-911789.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/1011_chao_sang_638352031683989313.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/chao-buoi-sang-10112023-bo-y-te-canh-bao-mam-benh-dau-mua-khi-trong-cong-dong-911789.html" title="Chào buổi sáng | 10/11/2023 | Bộ Y tế cảnh báo mầm bệnh đậu mùa khỉ trong cộng đồng">Chào buổi sáng | 10/11/2023 | Bộ Y tế cảnh báo mầm bệnh đậu mùa khỉ trong cộng đồng</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">598 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/tai-chinh-kinh-doanh-10112023-san-xuat-cong-nghiep-phuc-hoi-o-cac-thang-cuoi-nam-911788.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/0eb503bf-abea-4d36-b560-7d655bd06a24.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/tai-chinh-kinh-doanh-10112023-san-xuat-cong-nghiep-phuc-hoi-o-cac-thang-cuoi-nam-911788.html" title="Tài chính kinh doanh | 10/11/2023 | Sản xuất công nghiệp phục hồi ở các tháng cuối năm">Tài chính kinh doanh | 10/11/2023 | Sản xuất công nghiệp phục hồi ở các tháng cuối năm</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">264 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/dong-luc-tang-truong-cho-bat-dong-san-phia-dong-ha-noi-tai-chinh-kinh-doanh-911787.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/cc52f00e-8d0d-4cfa-bd76-981c90d427b4.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/dong-luc-tang-truong-cho-bat-dong-san-phia-dong-ha-noi-tai-chinh-kinh-doanh-911787.html" title="Động lực tăng trưởng cho bất động sản phía Đông Hà Nội | Tài chính kinh doanh">Động lực tăng trưởng cho bất động sản phía Đông Hà Nội | Tài chính kinh doanh</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">66 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                                                        <div class="swiper-slide news-slide-content-item">
+                                <a href="https://vtvgo.vn/tin-tuc/san-xuat-cong-nghiep-phuc-hoi-o-cac-thang-cuoi-nam-tai-chinh-kinh-doanh-911786.html" class="img-thumbnail-web"><img src="https://vtvgo-images.vtvdigital.vn/images/20231110/419a8265-7d66-4a06-98ba-13bcbf3ce743.jpg" class="img-slider-news" /></a>
+                                <span class="col-md-12 height-info-items-news">
+                                    <label>
+                                        <h2 class="label-store-news label-store-news-small">
+                                            <a class="font-bold" href="https://vtvgo.vn/tin-tuc/san-xuat-cong-nghiep-phuc-hoi-o-cac-thang-cuoi-nam-tai-chinh-kinh-doanh-911786.html" title="Sản xuất công nghiệp phục hồi ở các tháng cuối năm | Tài chính kinh doanh">Sản xuất công nghiệp phục hồi ở các tháng cuối năm | Tài chính kinh doanh</a>
+                                        </h2>
+                                    </label>
+                                    <label class="text-view-news text-view-news-small">54 Lượt xem | 0 Lượt thích</label>
+                                </span>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                    					<div class="swiper-button-prev swiper-button-prev-custom swiper-button-white" style="left: 2px !important; top: 345px !important;"></div>
+					<div class="swiper-button-next swiper-button-next-custom swiper-button-white" style="right: 4px !important; top: 345px !important;"></div>
+
+				</div>
+            </div>
+
+            <div class="col-md-12 pagination">
+                <div class="pagination-page">
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=-1&page=1" class="pull-left" data-ci-pagination-page="2">
+                        <i class="fa fa-angle-double-left btn-pagination border-right-btn-pagination" aria-hidden="true"></i>
+                    </a>
+                    <a href="javscript:void(0)" class="pull-left prev-page swiper-button-prev-custom" data-ci-pagination-page="2" rel="next">
+                        <i class="fa fa-angle-left btn-pagination" aria-hidden="true"></i>
+                    </a>
+                    <strong class="middle-center-pagination col-centered">
+                        <span> Trang 1 / 7197 </span>
+                    </strong>
+                    <a href="https://vtvgo.vn/tin-tuc?chuyen-muc=-1&page=7197" class="pull-right" data-ci-pagination-page="2">
+                        <i class="fa fa-angle-double-right btn-pagination border-left-btn-pagination" aria-hidden="true"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    $(document).on('ready', function () {
+
+		$(".slide-news-loading").mouseover(function(){
+			$(".slide-news .swiper-button-next").css("opacity", "1");
+			$(".slide-news .swiper-button-prev").css("opacity", "1");
+		});
+		$(".slide-news-loading").mouseout(function(){
+			$(".slide-news .swiper-button-next").css("opacity", "0");
+			$(".slide-news .swiper-button-prev").css("opacity", "0");
+		});
+
+
+
+		var keyword = "-1";
+		var page = "1"; 
+		var endpage = '7197';
+		var origin_url = 'https://vtvgo.vn/tin-tuc?chuyen-muc=' + keyword + '&page=';
+		var _count = 1;
+		var api_page = "1";
+		var swiper = new Swiper('.slide-next-multi-row-cell-container', {
+			slidesPerView: 3,
+			slidesPerColumn: 3,
+			paginationClickable: true,
+			spaceBetween: 10,
+			slidesPerGroup: 3,
+			nextButton: '.swiper-button-next-custom',
+			prevButton: '.swiper-button-prev-custom',
+			onSlideNextStart: function(){
+                page = parseInt(page) + 1;
+				$(".middle-center-pagination").html(" Trang "+(parseInt(page))+" / "+endpage);
+			},
+			onSlidePrevStart: function(){
+				page = page - 1;
+				$(".middle-center-pagination").html(" Trang "+(page)+" / "+endpage);
+
+			},
+			
+		});
+
+
+        $(".slide-vtv-next-multi").slick({
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            prevArrow: '<div class="swiper-button-prev swiper-button-white"></div>',
+            nextArrow: '<div class="swiper-button-next swiper-button-white"></div>',
+            
+        });
+    });
+
+</script>
+
+
+
+<input type="hidden" name="base_url" id="base_url" value="https://vtvgo.vn/">
+<textarea id="full_url_to_copy" rows="1" cols="30" class="disp-none"></textarea>
+
+ 
+        <footer class="footer col-md-12">
+
+            <div class="block-footer">
+                <div class="col-md-5 no-padding">
+                    <a class="img-link-footer" href="https://play.google.com/store/apps/details?id=vn.vtv.vtvgo" target="_blank">
+                        <img src="https://public-web.vtvdigital.vn/public/images/link_googleplay.png" alt="VTVGo"/>
+                    </a>
+                    <a class="img-link-footer" href="https://itunes.apple.com/us/app/vtv-go-moi-noi-moi-luc/id1072038396?mt=8" target="_blank">
+                        <img src="https://public-web.vtvdigital.vn/public/images/link_applestore.png" alt="VTVGo" />
+                    </a>
+                    <a class="img-link-footer" href="https://www.microsoft.com/en-us/store/apps/vtv-go/9nblggh3fvcp" target="_blank">
+                        <img src="https://public-web.vtvdigital.vn/public/images/link_microsoft.png" alt="VTVGo" />
+                    </a>
+                </div>
+                <div class="col-md-7 copyright-ogz no-padding">
+                    Sản phẩm của
+                    <img src="https://public-web.vtvdigital.vn/public/images/LogoVTV_digital_ngang.png" alt="VTVGo"/>
+                    <p style="    padding-left: 22px;color:#9e9e9e;">Giấy phép thông tin điện tử số 130/GP-TTĐT do Cục phát thanh, Truyền hình và Thông tin điện tử cấp.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-md-12 no-padding">
+                    <a href="/policy.html" style="color: white">Điều khoản sử dụng</a>
+                </div>
+            </div>
+            </div>
+            
+        </footer>
+        </div>
+
+
+
+   
+    </body>
+</html>
